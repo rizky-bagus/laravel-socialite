@@ -46,10 +46,16 @@
                 
             </div>
             <div class="flex items-center justify-end mt-4">
-                    <a href="{{ url('auth/google') }}">
-                        <img src="https://developers.google.com/identity/images/btn_google_signin_dark_normal_web.png" style="margin-left: 3em;">
-                    </a>
-                </div>
+                <a href="{{ url('auth/google') }}">
+                    <img src="https://developers.google.com/identity/images/btn_google_signin_dark_normal_web.png" style="margin-left: 3em;">
+                </a>
+            </div>
+                
+            <div class="flex items-center justify-end mt-4">
+                <a href="{{ url('auth/facebook') }}" >
+                    <img src="https://www.ngampooz.com/materialize/img/btn_fb_signin.png" style="margin-left: 3em;width:191px;">
+                </a>
+            </div>
         </form>
     </x-jet-authentication-card>
 </x-guest-layout>
