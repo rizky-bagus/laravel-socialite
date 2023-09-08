@@ -35,3 +35,5 @@ Route::get('auth/google/callback', [GoogleController::class, 'handleGoogleCallba
 
 Route::get('auth/facebook', [FacebookController::class, 'redirectToFacebbok']);
 Route::get('auth/facebook/callback', [FacebookController::class, 'handleFacebookCallback']);
+
+Route::get('auth/facebook/callback-testing-lagi', [FacebookController::class, 'handleFacebookCallback']);
