@@ -41,3 +41,7 @@ Route::get('auth/facebook/callback-testing-lagi', [FacebookController::class, 'h
 // Path: app/Http/Controllers/GoogleController.php
 Route::get('auth/google', [GoogleController::class, 'redirectToGoogle']);
 Route::get('auth/google/callback', [GoogleController::class, 'handleGoogleCallback']);
+
+// Path: app/Http/Controllers/TwitterController.php
+Route::get('auth/twitter', [TwitterController::class, 'redirectToTwitter']);
+Route::get('auth/twitter/callback', [TwitterController::class, 'handleTwitterCallback']);
